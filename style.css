@@ -1,0 +1,144 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(157, 168, 168);
+}
+
+
+header {
+    background-color: #41576d;
+    padding: 1em;
+    text-align: center;
+}
+header1 {
+    background-color: #333;
+    color: #413434;
+    padding: 1px;
+    text-align: center;
+    
+}
+header1 nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header1 nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav-link {
+    color: #0e0e0e;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #a09b9b;
+}
+
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+header p {
+    font-size: 18px;
+    color: #a3c2d2;
+    
+}
+
+main {
+    padding: 2em;
+}
+
+article {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(204, 233, 244);
+}
+
+article h3 {
+  color: #333;
+  text-align: center;
+}
+article p {
+    color: #703c3c;
+    text-align: center;
+}
+
+article img {
+    width: 100%;
+    height:fit-content;
+    margin-bottom: 20px;
+    object-fit: cover;
+    padding-right: 10px;
+     
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #a3c2d2;
+}
+#article p{
+    align-items: center;
+}
+
+footer {
+    background-color: #41576d;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer p{
+    font-size: 14px;
+    color: #a3c2d2;
+
+}
+intro {
+    color: #060606;
+    font-size: 14px;
+    background-color: #f52323;
+    
+}
+
+.li {
+     color: aqua;
+}
+
+.project-list {
+     color: yellowgreen;
+     border: solid 3px rgb(110, 135, 135);
+}
+.br {
+    border: solid 3px rgb(22, 32, 32);
+}

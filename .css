@@ -1,0 +1,159 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #2f2f2f;
+    color: #fff;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66d9ef;
+    align-content: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #66d9ef;
+  }
+  
+  a:hover {
+    color: #fff;
+  }
+  
+  /* Header Styles */
+  
+  .header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 18px;
+    color: #999;
+  }
+  
+  /* Navigation Styles */
+  
+  .nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    color: #fff;
+    transition: color 0.2s ease;
+  }
+  
+  .nav a:hover {
+    color: #66d9ef;
+  }
+  
+  /* Main Content Styles */
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .main h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .main p {
+    font-size: 18px;
+    color: #999;
+  }
+  
+  /* Footer Styles */
+  
+  .footer {
+    background-color: #1a1a1a;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  
+  @media only screen and (max-width: 768px) {
+    .main {
+      flex-direction: column;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .header h1 {
+      font-size: 24px;
+    }
+    .nav {
+      padding: 5px;
+    }
+    .nav li {
+      margin-right: 10px;
+    }
+  }
+  
+  /* Custom Styles */
+  
+  .custom-button {
+    background-color: #66d9ef;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #4CAF50;
+  }
+  
+  /* Alfaz Uddin - Blog Styles */
+  
+  .blog-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #66d9ef;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .blog-description {
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 20px;
+  }
